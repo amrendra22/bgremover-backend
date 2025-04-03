@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure--)zqyuka$ow-%md&ey$l^3feux&))du2*hzry-nbj0y_g$cu@m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'troubled-skunk-mayraonline-a10d9a59.koyeb.app',
+    '.koyeb.app',  # Koyeb subdomains ke liye
+]
 
 
 # Application definition
