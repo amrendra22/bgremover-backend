@@ -21,3 +21,13 @@ def remove_bg_task(image_id):
 
     except ImageUpload.DoesNotExist:
         pass
+
+
+
+
+
+
+@shared_task
+def test_task(x, y):
+    return x + y
+

@@ -1,1 +1,1 @@
-web: gunicorn --workers=3 --timeout 120 bgremover.wsgi:application
+web: gunicorn --workers 2 --threads 4 --timeout 120 bgremover.wsgi:application
